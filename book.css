@@ -122,13 +122,64 @@ margin-top: 10px;
     line-height: 1.17;
     margin-top: 90px;
 }
-#hero .ar9 {
+#hero .ar9{
     display: flex;
-    justify-content: space-evenly;
 }
 #hero .ar9 div img {
-    height: 250px;
+    height: 200px;
     width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
+#hero .ar9 div {
+    margin-left: 150px;
+    margin-top: 30px;
+    margin: 20px;
+}
+/* ========hero01========================= */
+#hero01 .ar10 div img {
+    margin-left: 150px;
+    margin-top: 30px;
+    /* width: 1200px; */
+    height: 100px;
+}
+#hero01{
+    background-color: #2b3148;
+}
+#hero01 .ar10 .h1{
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-left: 160px;
+}
+#hero01 .ar10 .h2 {
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    margin-left: 160px;
+}
+#hero01 .ar11  {
+display: flex;
+}
+#hero01 .ar11 div img {
+    height: 400px;
+    width: 250px;
+}
+#hero01 .ar11 div {
+    padding: 0px;
+    display: grid
+;
+    grid-template-columns: repeat(3, calc(20% - 25.6px));
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-flow: column;
+    gap: 8px 32px;
+    overflow: scroll hidden;
+    transform: initial;
 
-
+}
