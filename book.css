@@ -145,6 +145,7 @@ margin-top: 10px;
 }
 #hero01{
     background-color: #2b3148;
+    height: 650px;
 }
 #hero01 .ar10 .h1{
     word-break: break-word;
@@ -168,18 +169,133 @@ margin-top: 10px;
 display: flex;
 }
 #hero01 .ar11 div img {
-    height: 400px;
-    width: 250px;
+    height: 350px;
+    width: 220px;
 }
-#hero01 .ar11 div {
-    padding: 0px;
-    display: grid
-;
-    grid-template-columns: repeat(3, calc(20% - 25.6px));
-    grid-template-rows: repeat(1, 1fr);
-    grid-auto-flow: column;
-    gap: 8px 32px;
-    overflow: scroll hidden;
-    transform: initial;
+ #hero01 .ar11 div {
+    margin-right: -130px;
+    margin-left: 160px;
+    margin-top: 10px;
+ }
+#hero01 .ar11 div img {
+    border-radius: 10px;
+}
+#hero01 .ar11 .h3{
+    
+    margin: 0px 0px 4px;
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 380px;
+    margin-left: -580px;
+}
+#hero01 .ar11 .h4{
+    margin: 0px;
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 405px;
+margin-left: -55px;
+}
+#hero01 .ar11 .h5{
+    
+    margin: 0px 0px 4px;
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 380px;
+    margin-left: 190px;
+}
+#hero01 .ar11 .h6{
+    margin: 0px;
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 405px;
+margin-left: -75px;
+}
+#hero01 .ar11 .h7{
+    
+    margin: 0px 0px 4px;
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 380px;
+    margin-left: 190px;
+}
+#hero01 .ar11 .h8{
+    margin: 0px;
+    word-break: break-word;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 430px;
+margin-left: -195px;
+}
 
+/* ==============hero 02======================== */
+#hero02 .h1{
+margin-left: 160px;
+word-break: break-word;
+color: rgb(51, 51, 51);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.17;
+margin-top: 30px;
+}
+#hero02 .h1 a{
+    text-decoration: none;
+color: rgb(51, 51, 51);
+    
+}
+#hero02 div a  {
+display: flex;
 }
