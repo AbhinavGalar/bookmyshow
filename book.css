@@ -368,3 +368,81 @@ display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
+#hero02 .texts .h4{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+#hero02 .texts .h4 a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #222222;
+    margin: 0px 0px 4px;
+    word-break: break-word;
+    color: rgb(34, 34, 34);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#hero02 .texts .h5{
+    margin-left: -225px;
+    margin-top: 60px;
+}
+#hero02 .texts .h5 a{
+    word-break: break-word;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+}
+#hero02  .texts .h6 {
+    margin-top: 10px;
+     margin-left: 75px;
+}
+#hero02 .texts .h6 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #222222;
+    margin: 0px 0px 4px;
+    word-break: break-word;
+    color: rgb(34, 34, 34);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#hero02 .texts .h7{
+    margin-top: 70px;
+    margin-left: -190px;
+}
+#hero02 .texts .h7 a {
+    word-break: break-word;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+}
