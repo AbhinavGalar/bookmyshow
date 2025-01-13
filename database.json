@@ -1,13 +1,102 @@
 {
-    "emp": [
-      {
-        "data":{
-            " movie name": "pushpa ",
-            "row": "1",
-            "timing": "9:00am",
-            "seats": "2021-12-25"
-        }
-      }
-    ]
-  }
-  
+  "emp": [
+    {
+      "id": "f98c",
+      "name": "abhinav",
+      "age": "1",
+      "city": "drdrd",
+      "contact": "223233"
+    },
+    {
+      "id": "9e44",
+      "movie": "a",
+      "row": "a",
+      "seats": "a",
+      "contact": "a"
+    },
+    {
+      "id": "ab6b",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "823c",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "2049",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "6257",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "6cfa",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "3399",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "3213",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "d1c9",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "d33b",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "275d",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "4f6d",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    },
+    {
+      "id": "53c6",
+      "movie": "",
+      "row": "",
+      "seats": "",
+      "contact": ""
+    }
+  ]
+}

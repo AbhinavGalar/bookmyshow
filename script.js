@@ -1,15 +1,13 @@
 function insert_data(){
     let data = {
-       movie name: document.querySelector('#movie').value,
+        movie: document.querySelector('#movie').value,
         row: document.querySelector('#row').value,
-        timing: document.querySelector('#timings').value,
-        seats: document.querySelector('#seats').value,
-        choose: document.querySelector('#choose').value,
-
+    seats: document.querySelector('#timing').value,
+        contact: document.querySelector('#seat').value,
 
     }
 
-    fetch(`"http://localhost:3000/emp"`,{
+    fetch("http://localhost:3000/emp",{
         method: 'POST',
         headers:{
             'content-type': 'application/json'
