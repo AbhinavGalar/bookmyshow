@@ -14,5 +14,5 @@ function insert_data(){
         },
         body: JSON.stringify(data)
     })
-    .then(r=>alert("Data Inserted"))
+    .then(r=>alert("BOOKING CONFIRMED GO AND ENJOY "))
 }
