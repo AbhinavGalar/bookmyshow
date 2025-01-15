@@ -663,8 +663,8 @@ margin-top: 25px;
     border-radius: 16px;    
     }
     #slider  .texts1 .h2 {
-        margin-left: 10px;
-        margin-top: -15px;
+        margin-left: 35px;
+        margin-top: -10px;
     }
     #slider  .texts1 .h2 a{
         font-size: 18px;
@@ -684,8 +684,8 @@ margin-top: 25px;
         -webkit-box-orient: vertical;
     }
     #slider  .texts1 .h3 {
-        margin-top: 20px;
-        margin-left: -190px;
+        margin-top: 40px;
+        margin-left: -160px;
     }
     #slider  .texts1 .h3 a {
         word-break: break-word;
@@ -702,7 +702,7 @@ margin-top: 25px;
         text-decoration: none;
     }
     #slider  .texts1 .h4 {
-        margin-left: 120px;
+        margin-left: 100px;
         margin-top: -5px;
     }
     #slider  .texts1 .h4 a {
@@ -723,7 +723,7 @@ margin-top: 25px;
         -webkit-box-orient: vertical;
     }
     #slider  .texts1 .h5  {
-    margin-left: -125px;
+    margin-left: -160px;
     margin-top: 25px;
     }
     #slider .texts1 .h5 a {
@@ -762,8 +762,8 @@ margin-top: 25px;
         -webkit-box-orient: vertical;
     }
     #slider  .texts1 .h7{
-        margin-left: -180px;
-        margin-top: 30px;
+        margin-left: -140px;
+        margin-top: 40px;
     }
     #slider  .texts1 .h7 a{
         word-break: break-word;
@@ -780,7 +780,7 @@ margin-top: 25px;
         text-decoration: none;
     }
     #slider  .texts1 .h8 {
-        margin-left: 110px;
+        margin-left: 90px;
         margin-top: -3px;
     }
     #slider  .texts1 .h8 a{
@@ -801,10 +801,51 @@ margin-top: 25px;
         -webkit-box-orient: vertical;
     }
     #slider  .texts1 .h9 {
-        margin-top: 55px;
-        margin-left:-170px;
+        margin-top: 50px;
+        margin-left:-200px;
     }
     #slider .texts1 .h9 a {
+        word-break: break-word;
+        color: rgb(102, 102, 102);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-decoration: none;
+    }
+
+    #slider  .texts1 .h10{
+        margin-top: 5px;
+         margin-left: 90px;
+        /* background-color: black; */
+    }
+    #slider .texts1 .h10 a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #222222;
+        margin: 0px 0px 4px;
+        word-break: break-word;
+        color: rgb(34, 34, 34);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.33;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    #slider  .texts1 .h11 {
+        margin-top: 60px;
+        margin-left: -230px;
+    }
+    #slider .texts1 .h11 a {
         word-break: break-word;
         color: rgb(102, 102, 102);
         font-family: Roboto;
