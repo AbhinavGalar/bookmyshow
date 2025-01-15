@@ -1,13 +1,6 @@
 {
   "emp": [
     {
-      "id": "9e44",
-      "movie": "a",
-      "row": "a",
-      "seats": "a",
-      "contact": "a"
-    },
-    {
       "id": "ab6b",
       "movie": "",
       "row": "",
@@ -85,13 +78,6 @@
       "contact": ""
     },
     {
-      "id": "4dea",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
       "id": "8a8f",
       "movie": "a",
       "row": "2",
@@ -163,6 +149,20 @@
     },
     {
       "id": "a583",
+      "name": "abhinav",
+      "age": "1",
+      "city": "drdrd",
+      "contact": "223233"
+    },
+    {
+      "id": "efec",
+      "name": "abhinav",
+      "age": "1",
+      "city": "drdrd",
+      "contact": "223233"
+    },
+    {
+      "id": "081f",
       "name": "abhinav",
       "age": "1",
       "city": "drdrd",
