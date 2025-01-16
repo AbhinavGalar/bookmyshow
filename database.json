@@ -1,172 +1,25 @@
 {
   "emp": [
     {
-      "id": "ab6b",
+      "id": "",
       "movie": "",
+      "sets": "",
       "row": "",
-      "seats": "",
-      "contact": ""
+      "timing": ""
     },
     {
-      "id": "823c",
+      "id": "",
       "movie": "",
+      "sets": "",
       "row": "",
-      "seats": "",
-      "contact": ""
+      "timing": ""
     },
     {
-      "id": "2049",
+      "id": "",
       "movie": "",
+      "sets": "",
       "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "6257",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "6cfa",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "3399",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "d1c9",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "d33b",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "275d",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "4f6d",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "53c6",
-      "movie": "",
-      "row": "",
-      "seats": "",
-      "contact": ""
-    },
-    {
-      "id": "8a8f",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "a5b9",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "8100",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "3d50",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "287f",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "6973",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "be99",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "9975",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "b03d",
-      "movie": "a",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "863d",
-      "movie": "",
-      "row": "2",
-      "seats": "1:00pm",
-      "contact": "2"
-    },
-    {
-      "id": "a583",
-      "name": "abhinav",
-      "age": "1",
-      "city": "drdrd",
-      "contact": "223233"
-    },
-    {
-      "id": "efec",
-      "name": "abhinav",
-      "age": "1",
-      "city": "drdrd",
-      "contact": "223233"
-    },
-    {
-      "id": "081f",
-      "name": "abhinav",
-      "age": "1",
-      "city": "drdrd",
-      "contact": "223233"
+      "timing": ""
     }
   ]
 }

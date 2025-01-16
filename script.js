@@ -5,25 +5,37 @@ async function fet(){
     let finaldata = data.map((e)=>`
     <tr>
     <td> ${e.id} </td>
-    <td> ${e.name} </td>
-    <td> ${e.age} </td>
-    <td> ${e.contact} </td>
-    <td> ${e.city} </td>
-    <td> <button onclick="mydelete('${e.id}')">Delet</button> </td>
+    <td> ${e.movie} </td>
+    <td> ${e.sets} </td>
+    <td> ${e.row} </td>
+    <td> ${e.timing} </td>
+
+    <td> <button onclick="mydelete('${e.id}')">CANCEL</button> </td>
     <td> <button onclick="edit('${e.id}')">Edit</button> </td>
     </tr>
 
     `).join("")
     table.innerHTML = finaldata
 }
+fet()
+
+// ==============delete===============
+function mydelete(id){
+    console.log(id);
+    fetch(`http://localhost:3000/emp${id}`,{
+        method:'DELETE'
+    })
+    .then(r=>alert("Deleted...!!"))
+ }
 
 
+// ============insert data=============
 function insert_data(){
     let data = {
-        movie: document.querySelector('#movie').value,
-        row: document.querySelector('#row').value,
-    seats: document.querySelector('#timing').value,
-        contact: document.querySelector('#seat').value,
+        movie: document.querySelector('#Movie').value,
+        sets: document.querySelector('#row').value,
+        row: document.querySelector('#seats').value,
+        timing: document.querySelector('#timing').value,
 
     }
 
@@ -34,5 +46,17 @@ function insert_data(){
         },
         body: JSON.stringify(data)
     })
-    .then(r=>alert("BOOKING CONFIRMED GO AND ENJOY "))
+    .then(r=>alert("Data Inserted"))
+}
+// ==========================local storage data==========================
+let data={
+    username:"abhinav",
+    passowrd:6261471558,
+}
+localStorage.setItem("userdata",JSON.stringify(data))
+let finaldata=JSON.parse(localStorage.getItem('userdata'))
+console.log(finaldata.age);
+// ====================BOM=========================
+const fun =()=>{
+    window.open("signin.html"," ","height=100px","width=100px","top=100px","width=100px")
 }
