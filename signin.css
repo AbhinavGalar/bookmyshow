@@ -1,0 +1,26 @@
+#sections{
+    margin: opx;
+    padding: 0px;
+}
+#sections div  h4{
+     margin-left: 600px;
+}
+#sections article {
+    display: flex;
+    margin-left: 600px;
+}
+#sections article .logo {
+     margin: 10px;
+     background-color: black;
+}
+#sections article .t1 a{
+color:  #595959;
+text-decoration: none;
+}
+#sections article .t1 {
+    margin-top: 10px;
+}
+#sections .google{
+        
+}
+
