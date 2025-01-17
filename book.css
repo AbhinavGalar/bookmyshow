@@ -33,18 +33,30 @@
     margin-top: -30px;
 }
 #navbar .icon1{
-    margin-left: 10px;
+    margin-left: 5px;
     
 }
 #navbar div a{
     text-decoration: none;
     color: #1a1a1a;
 }
+#navbar .ar2 div {
+    margin-left: 20px;
+}
 #navbar div button{
-    margin-left: 30px;
-    background-color: red;
-    color: white;
-   margin-right: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 68, 100);
+    display: block;
+}
+#navbar .icon2{
+   margin-left: 40px;
 }
 /* ======================================secondnavbar============================= */
 #secondnav .ar3{
@@ -81,6 +93,7 @@ margin-top: 10px;
     margin-top: 20px;
     border-radius: 16px;
 }
+
 #hero .ar5{
     background-color: #c6c3c354;
 }
@@ -96,6 +109,17 @@ margin-top: 10px;
 #hero .ar7 {
     margin-left: 170px;
     margin-top: 20px;
+    /* background-color: black; */
+}
+#hero .ar7 .emer a {
+    margin-left: 450px;
+    margin-bottom: -140px;
+    border-radius: 16px;
+    background-color: black;
+}
+#hero .ar7 .emer img {
+    margin-top: -1000px;
+    background-color: black;
 }
 #hero .ar7 div h1{
     font-size: 20px;
