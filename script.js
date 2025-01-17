@@ -58,5 +58,5 @@ let finaldata=JSON.parse(localStorage.getItem('userdata'))
 console.log(finaldata.age);
 // ====================BOM=========================
 const fun =()=>{
-    window.open("signin.html"," ","height=100px","width=100px","top=100px","width=100px")
+    window.open("signin.html"," ","height=20px","width=10px","top=10px","left=100px")
 }
