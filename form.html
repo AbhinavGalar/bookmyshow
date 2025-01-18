@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
   </head>
-  <body>
+  <body> 
+    <section id="form">
     <form action="fetch.html" onsubmit="insert_data()">
-      <label for=""> Movie </label>
-      <input type="text" id="Movie" list="suggestions" />
+      <label class="form1" for=""> Movie </label>
+      <input  type="text" id="Movie" list="suggestions" />
       <datalist id="suggestions">
         <option value="Pushpa  2: The Rise"></option>
         <option value="marco"></option>
@@ -46,7 +48,7 @@
         <option value="6:00"></option>
         <option value="9:00"></option>
       </datalist>
-
+</section>
       <input type="submit" />
     </form>
     <script src="script.js"></script>
