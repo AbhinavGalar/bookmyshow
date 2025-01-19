@@ -653,234 +653,73 @@ margin-top: 25px;
     text-decoration: none;
 }
 
-#footer article .f1 {
-    background-color: rgb(214, 64, 64);
-    margin-left: 300px;
-    margin-right: 1000px ;
-
-}
-/* ======================slider======================= */
-#slider {
-    margin-left: 160px;
+/* ===========================footer========================== */
+#footer article div h1{
     word-break: break-word;
     color: rgb(51, 51, 51);
     font-family: Roboto;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.17;
+}
+#footer article .f1{
+    margin-left: 150px;
+}
+#footer article div img {
+    height: 200px;
+    width: 1300px;
+}
+ #footer article div img {
+    margin-left: 120px;
     margin-top: 30px;
-}
-#slider  article {
+ }
+ #footer .footer1 {
     display: flex;
-    margin-left: -20px;
-    margin-top: 10px;
+ }
+ #footer .footer1 .f2 {
+    margin-left: 150px;
+    margin-top: 50px;
+    
+ }
+ #footer .footer1 .f2 {
+   color: black;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #footer .footer1 .f3 {
+    margin-top: 40px;
+    margin-left: 70px;
+ }
+ #footer .footer1 .f3 button{
+    flex: 0 0 auto;
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+#footer2 article div img {
+    height: 100px;
+    width: 1550px;
 }
-#slider  article div  img {
-    height: 380px;
-    width: 230px;
-    }
- #slider  article div img {
-        margin: 10px;
-    border-radius: 16px;    
-    }
-    #slider  .texts1 .h2 {
-        margin-left: 35px;
-        margin-top: -10px;
-    }
-    #slider  .texts1 .h2 a{
-        font-size: 18px;
-        text-decoration: none;
-        color: #222222;
-        margin: 0px 0px 4px;
-        word-break: break-word;
-        color: rgb(34, 34, 34);
-        font-family: Roboto;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.33;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-    }
-    #slider  .texts1 .h3 {
-        margin-top: 40px;
-        margin-left: -160px;
-    }
-    #slider  .texts1 .h3 a {
-        word-break: break-word;
-        color: rgb(102, 102, 102);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 1.5;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-        text-decoration: none;
-    }
-    #slider  .texts1 .h4 {
-        margin-left: 100px;
-        margin-top: -5px;
-    }
-    #slider  .texts1 .h4 a {
-        font-size: 18px;
-        text-decoration: none;
-        color: #222222;
-        margin: 0px 0px 4px;
-        word-break: break-word;
-        color: rgb(34, 34, 34);
-        font-family: Roboto;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.33;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-    }
-    #slider  .texts1 .h5  {
-    margin-left: -160px;
-    margin-top: 25px;
-    }
-    #slider .texts1 .h5 a {
-        word-break: break-word;
-        color: rgb(102, 102, 102);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 1.5;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-        text-decoration: none;
-    }
-    #slider  .texts1 .h6 {
-        margin-left: 100px;
-        margin-top: -5px;
-    }
-    #slider  .texts1 .h6 a {
-        font-size: 18px;
-        text-decoration: none;
-        color: #222222;
-        margin: 0px 0px 4px;
-        word-break: break-word;
-        color: rgb(34, 34, 34);
-        font-family: Roboto;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.33;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-    }
-    #slider  .texts1 .h7{
-        margin-left: -140px;
-        margin-top: 40px;
-    }
-    #slider  .texts1 .h7 a{
-        word-break: break-word;
-        color: rgb(102, 102, 102);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 1.5;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-        text-decoration: none;
-    }
-    #slider  .texts1 .h8 {
-        margin-left: 90px;
-        margin-top: -3px;
-    }
-    #slider  .texts1 .h8 a{
-        font-size: 18px;
-        text-decoration: none;
-        color: #222222;
-        margin: 0px 0px 4px;
-        word-break: break-word;
-        color: rgb(34, 34, 34);
-        font-family: Roboto;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.33;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-    }
-    #slider  .texts1 .h9 {
-        margin-top: 50px;
-        margin-left:-200px;
-    }
-    #slider .texts1 .h9 a {
-        word-break: break-word;
-        color: rgb(102, 102, 102);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 1.5;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-        text-decoration: none;
-    }
-
-    #slider  .texts1 .h10{
-        margin-top: 5px;
-         margin-left: 90px;
-        /* background-color: black; */
-    }
-    #slider .texts1 .h10 a {
-        font-size: 18px;
-        text-decoration: none;
-        color: #222222;
-        margin: 0px 0px 4px;
-        word-break: break-word;
-        color: rgb(34, 34, 34);
-        font-family: Roboto;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.33;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-    }
-    #slider  .texts1 .h11 {
-        margin-top: 60px;
-        margin-left: -230px;
-    }
-    #slider .texts1 .h11 a {
-        word-break: break-word;
-        color: rgb(102, 102, 102);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 1.5;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        /* -webkit-line-clamp: 2; */
-        -webkit-box-orient: vertical;
-        text-decoration: none;
-    }
-    #swiper .swiper-myswiper {
-        height: 100px;
-        width: 100px;
-    }
+#footer2 article div img {
+    margin-top: 50px;
+}
+#footer2 .f1  div img {
+    height: 800px;
+    width: 1550px;
+}
+#footer2 .f1 {
+    margin-top: -55px;
+}
+#footer2 .footer3 {
+    justify-content: center;
+}
+#footer2 {
+    background-color: black;
+}
+#footer2 .footer3 div img  {
+height: 100px;
+width: 100px;
+}
