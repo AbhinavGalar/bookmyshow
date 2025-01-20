@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section id="form">
+        <form action="fetch.html" onsubmit="insert_data()">
+            <label class="form1" for="movie">Movie</label>
+            <input type="text" id="movie" list="suggestions" />
+            <datalist id="suggestions">
+                <option value="Pushpa 2: The Rise"></option>
+                <option value="Marco"></option>
+                <!-- Add more options as needed -->
+            </datalist>
+
+            <label for="seats">Seats</label>
+            <input type="text" id="seats" list="suggestions1" />
+            <datalist id="suggestions1">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+            </datalist>
+
+            <label for="row">Row</label>
+            <input type="text" id="row" list="suggestions2" />
+            <datalist id="suggestions2">
+                <option value="A"></option>
+                <option value="B"></option>
+                <option value="C"></option>
+                <option value="D"></option>
+                <option value="E"></option>
+                <option value="F"></option>
+                <option value="G"></option>
+                <option value="H"></option>
+                <option value="I"></option>
+                <option value="J"></option>
+            </datalist>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -58,6 +58,7 @@ html {
 #navbar .icon2{
    margin-left: 40px;
 }
+
 /* ======================================secondnavbar============================= */
 #secondnav .ar3{
     display: flex;
@@ -160,6 +161,7 @@ margin-top: 10px;
     margin-top: 30px;
     margin: 20px;
 }
+
 /* ========hero01========================= */
 #hero01 .ar10 div img {
     margin-left: 150px;
@@ -302,6 +304,12 @@ margin-left: -75px;
     -webkit-box-orient: vertical;
     margin-top: 430px;
 margin-left: -195px;
+}
+@media screen and (max-width:1025px) {
+    #hero01 .ar10 div img   {
+        height: 500px;
+        width: 100px;
+    }
 }
 
 /* ==============hero 02======================== */
